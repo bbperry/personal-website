@@ -19,6 +19,7 @@ body {
     font-size: 25px;
     padding: 5px;
     font-family: courier;
+    border-radius: 5px;
 }
 
 footer {
@@ -29,6 +30,7 @@ footer {
     background-color: rgba(255,255,255,.70);
     color: black;
     text-align: right;
+    border-radius: 5px;
   }
   
   .content {
