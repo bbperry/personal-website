@@ -11,6 +11,16 @@ body {
     background-position:50% 35%;
   }
 
+.navBar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(245, 245, 245, 0.85);
+    font-size: 25px;
+    padding: 5px;
+    font-family: courier;
+}
+
 footer {
     position: fixed;
     left: 0;
@@ -21,11 +31,15 @@ footer {
     text-align: right;
   }
   
-  #content {
+  .content {
     border: solid 1px;
     padding: 20px;
     background: rgba(255,255,255,.85);
     border-radius: 15px;
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: 100px;
+    text-align: center;
+    width: 90%;
+    font-family: georgia;
     }
