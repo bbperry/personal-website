@@ -9,3 +9,9 @@ function snowButton() {
  function desertButton() {
     document.getElementById("body").style.backgroundImage = "url(./images/desert3.jpg)";
  }
+
+
+
+ function lightBox(){
+
+ }

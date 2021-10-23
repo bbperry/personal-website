@@ -53,3 +53,92 @@ footer {
     width: 400px;
     height: auto;
     }
+
+    /* Three image containers (use 25% for four, and 50% for two, etc) 
+.column {
+  float: left;
+  width: 15%;
+  height: auto;
+  padding: 5px;
+}
+
+
+/* Clear floats after image containers 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  object-fit: contain;
+}
+*/
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+li {
+  height: 40vh;
+  flex-grow: 1;
+}
+
+li:last-child {
+  flex-grow: 10;
+}
+
+img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+/*
+
+ Portrait */
+
+@media (max-aspect-ratio: 1/1) {
+  li {
+    height: 30vh;
+  }
+}
+
+/* Short screens */
+
+@media (max-height: 480px) {
+  li {
+    height: 80vh;
+  }
+}
+
+/* Smaller screens in portrait */
+
+@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+  ul {
+    flex-direction: row;
+  }
+
+  li {
+    height: auto;
+    width: 100%;
+  }
+  img {
+    width: 100%;
+    max-height: 75vh;
+    min-width: 0;
+  }
+}
+
+img {
+  cursor:pointer;
+
+}
+
+.hover-shadow {
+  transition: 0.1s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
