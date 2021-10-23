@@ -12,7 +12,7 @@ body {
   }
 
 .navBar {
-    position: fixed;
+    /*position: fixed;*/
     top: 0;
     width: 100%;
     background-color: rgba(245, 245, 245, 0.75);
@@ -43,4 +43,13 @@ footer {
     margin-top: 10px;
     text-align: center;
     font-family: georgia;
+    }
+
+    .photo {
+      padding: 30px;
+    }
+
+    .photo img {
+    width: 400px;
+    height: auto;
     }
