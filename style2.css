@@ -1,0 +1,91 @@
+html, body {
+    height: 100%;
+    min-height: 100%;
+  }
+
+
+body {
+    background: url(./images/shuksan.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:50% 35%;
+  }
+
+.navBar {
+    /*position: fixed;*/
+    top: 0;
+    width: 100%;
+    background-color: rgba(245, 245, 245, 0.75);
+    font-size: 25px;
+    padding: 5px;
+    font-family: courier;
+    border-radius: 5px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255,255,255,.70);
+    color: black;
+    text-align: right;
+    border-radius: 5px;
+  }
+  
+  .content {
+    border: solid 1px;
+    padding: 20px;
+    background: rgba(255,255,255,.85);
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: georgia;
+    }
+
+  .grid {
+      display: grid;
+      grid-template-columns: repeat(5, 200px);
+      justify-content: center;
+      align-content: center;
+      grid-gap: 10px;
+      height: 100vh; 
+  }
+
+  .grid img {
+      width: 200px;
+      height: 200px;
+      cursor: pointer;
+  }
+
+#lightbox {
+  position:fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.8);
+  display: none;
+}
+
+#lightbox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #lightbox img { 
+      width:auto; 
+      max-height:620px; 
+    }
+
+    .hover-shadow {
+        transition: 0.1s;
+      }
+      
+      .hover-shadow:hover {
+        box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+      }
+
