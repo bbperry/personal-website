@@ -77,3 +77,25 @@ footer {
   margin-top: -20px;
   font-size: 1em;
 }
+
+#about {
+  text-align: left;
+}
+
+.hobbies {
+  text-align: left;
+}
+
+.hobbies-list {
+  text-align: left;
+  list-style-type: none;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.bio {
+  text-indent: 40px;
+  text-align: left;
+}
+
