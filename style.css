@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display:300,400');
+
+* {
+  box-sizing: border-box;
+  font-family: Raleway;
+}
+
 html, body {
     height: 100%;
     min-height: 100%;
@@ -22,6 +29,15 @@ body {
     border-radius: 5px;
 }
 
+.navBar a:hover {
+  background-color: rgba(68, 178, 211, 0.445)
+}
+
+.navBar a {
+  display: inline-block;
+  color:rgb(43, 5, 58);
+}
+
 footer {
     position: fixed;
     left: 0;
@@ -42,8 +58,18 @@ footer {
     margin-right: 50px;
     margin-top: 10px;
     text-align: center;
-    font-family: georgia;
     }
+
+  .cuba {
+    float: left;
+    margin: 15px;
+    border-radius: 50%;
+  }
+
+
+
+
+
 /*
     .photo {
       padding: 30px;
@@ -71,7 +97,7 @@ footer {
   object-fit: contain;
 }
 */
-
+/*
 ul {
   display: flex;
   flex-wrap: wrap;
@@ -97,7 +123,7 @@ img {
 /*
 
  Portrait */
-
+/*
 @media (max-aspect-ratio: 1/1) {
   li {
     height: 30vh;
@@ -105,7 +131,7 @@ img {
 }
 
 /* Short screens */
-
+/*
 @media (max-height: 480px) {
   li {
     height: 80vh;
@@ -113,7 +139,7 @@ img {
 }
 
 /* Smaller screens in portrait */
-
+/*
 @media (max-aspect-ratio: 1/1) and (max-width: 480px) {
   ul {
     flex-direction: row;

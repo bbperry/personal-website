@@ -12,7 +12,7 @@ body {
   }
 
 .navBar {
-    /*position: fixed;*/
+    position: relative;
     top: 0;
     width: 100%;
     background-color: rgba(245, 245, 245, 0.75);
@@ -33,25 +33,25 @@ footer {
     border-radius: 5px;
   }
   
-  .content {
-    border: solid 1px;
-    padding: 20px;
-    background: rgba(255,255,255,.85);
-    border-radius: 15px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 10px;
-    text-align: center;
-    font-family: georgia;
-    }
+.content {
+  border: solid 1px;
+  padding: 20px;
+  background: rgba(255,255,255,.85);
+  border-radius: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: georgia;
+}
 
-  .grid {
-      display: grid;
-      grid-template-columns: repeat(5, 200px);
-      justify-content: center;
-      align-content: center;
-      grid-gap: 10px;
-      height: 100vh; 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  justify-content: center;
+  align-content: center;
+  grid-gap: 10px;
+  height: 100vh;
   }
 
   .grid img {
@@ -71,21 +71,19 @@ footer {
 }
 
 #lightbox.active {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
 
-  #lightbox img { 
-      width:auto; 
-      max-height:620px; 
-    }
-
-    .hover-shadow {
-        transition: 0.1s;
-      }
+#lightbox img { 
+  width:auto; 
+  max-height:620px; 
+}
+.hover-shadow {
+  transition: 0.1s;
+}
       
-      .hover-shadow:hover {
-        box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
-      }
-
+.hover-shadow:hover {
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
