@@ -52,7 +52,18 @@ footer {
   grid-gap: 10px;
   height: 100vh;
   margin-top: 10px;
-  
+  }
+
+  .container {
+    border: solid 1px;
+    padding: 20px;
+    background: rgba(255,255,255,.85);
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    width: 1040px;
+    height: 840px;
   }
 
   .grid img {
