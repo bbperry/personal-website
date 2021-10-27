@@ -29,8 +29,13 @@ body {
     border-radius: 5px;
 }
 
+.navBar a {
+  text-decoration: none;
+}
+
 .navBar a:hover {
-  background-color: rgba(68, 178, 211, 0.445)
+  background-color: rgba(156, 228, 250, 0.445);
+  text-decoration: underline;
 }
 
 .navBar a {
