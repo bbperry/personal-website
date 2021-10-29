@@ -70,6 +70,10 @@ footer {
       width: 200px;
       height: 200px;
       cursor: pointer;
+      transform-origin: center;
+      transform: perspective(800px) rotateY(20deg);
+     border:black;
+     border-radius: 5px;
   }
 
 #lightbox {
@@ -98,5 +102,6 @@ footer {
       
 .hover-shadow:hover {
   box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+  transform: perspective(800px) rotateY(0deg);
 }
 
